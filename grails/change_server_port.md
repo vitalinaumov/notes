@@ -2,7 +2,7 @@
 
 1. Изменить grails.serverURL в файле Config.groovy 
 с "http://localhost:8080/${appName}"
-на "http://localhost:8090/${appName}".
+на "http://localhost:8090/${appName}". - не работает
 
 1. Запустить grails с опцией -Dgrails.server.port.http=8090, либо дописать в
 опцию GRAILS_OPT.
