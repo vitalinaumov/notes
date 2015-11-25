@@ -1,3 +1,5 @@
+# Изменение порта
+
 1. Изменить grails.serverURL в файле Config.groovy 
 с "http://localhost:8080/${appName}"
 на "http://localhost:8090/${appName}".
